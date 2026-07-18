@@ -1,0 +1,476 @@
+/* ===========================
+MENU HERO
+=========================== */
+
+.menu-hero {
+  width: 100%;
+  height: 70vh;
+  background: url("https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1600")
+    center center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-hero .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.menu-content {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+}
+
+.menu-content h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.menu-content p {
+  font-size: 24px;
+  color: #eee;
+}
+
+/* ===========================
+CATEGORY
+=========================== */
+
+.categories {
+  padding: 90px 8%;
+  background: #fff;
+}
+
+.categories h2 {
+  text-align: center;
+  font-size: 42px;
+  color: #3b2115;
+  margin-bottom: 50px;
+}
+
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+}
+
+.category-card {
+  background: #faf2e8;
+  border-radius: 18px;
+  padding: 35px 20px;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.category-card .icon {
+  font-size: 50px;
+  margin-bottom: 18px;
+}
+
+.category-card h3 {
+  color: #3b2115;
+  font-size: 22px;
+}
+
+/* ===========================
+POPULAR DISHES
+=========================== */
+
+.menu-section {
+  background: #fcf5eb;
+  padding: 100px 8%;
+}
+
+.menu-section h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 60px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.food-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.food-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.food-content {
+  padding: 25px;
+}
+
+.food-content h3 {
+  color: #3b2115;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.food-content p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.food-content span {
+  display: block;
+  color: #d97a32;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.food-content button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 40px;
+  background: #d97a32;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.food-content button:hover {
+  background: #b85f20;
+}
+
+/* ===========================
+SECTION TITLE
+=========================== */
+
+section h2 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+/* ===========================
+CHEF'S BBQ SPECIALS
+=========================== */
+
+.special-menu {
+  padding: 100px 8%;
+  background: #fff;
+}
+
+.special-menu h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 60px;
+}
+
+.special-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.special-card {
+  background: #faf2e8;
+  padding: 35px 25px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.special-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.special-card h3 {
+  color: #3b2115;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.special-card p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.special-card span {
+  color: #d97a32;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* ===========================
+OFFER
+=========================== */
+
+.offer {
+  background:
+    linear-gradient(rgba(59, 33, 21, 0.85), rgba(59, 33, 21, 0.85)),
+    url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600")
+      center/cover no-repeat;
+
+  color: white;
+  text-align: center;
+  padding: 120px 8%;
+}
+
+.offer h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.offer h1 {
+  font-size: 60px;
+  color: #d97a32;
+  margin-bottom: 15px;
+}
+
+.offer h3 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.offer a {
+  display: inline-block;
+  text-decoration: none;
+  background: #d97a32;
+  color: white;
+  padding: 18px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.offer a:hover {
+  background: #b85f20;
+}
+
+/* ===========================
+DRINKS
+=========================== */
+
+.drinks {
+  padding: 100px 8%;
+  background: #fcf5eb;
+}
+
+.drinks h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 60px;
+}
+
+.drink-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.drink-card {
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.drink-card:hover {
+  transform: translateY(-8px);
+}
+
+.drink-card h3 {
+  color: #3b2115;
+  margin-bottom: 18px;
+}
+
+.drink-card span {
+  color: #d97a32;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ===========================
+DESSERT
+=========================== */
+
+.dessert {
+  padding: 100px 8%;
+  background: white;
+}
+
+.dessert h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 60px;
+}
+
+.dessert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.dessert-card {
+  background: #faf2e8;
+  padding: 35px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.dessert-card:hover {
+  transform: translateY(-8px);
+}
+
+.dessert-card h3 {
+  color: #3b2115;
+  margin-bottom: 15px;
+}
+
+.dessert-card p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.dessert-card span {
+  color: #d97a32;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ===========================
+CTA
+=========================== */
+
+.cta {
+  background: #3b2115;
+  color: white;
+  text-align: center;
+  padding: 100px 8%;
+}
+
+.cta h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 20px;
+  color: #ddd;
+  margin-bottom: 35px;
+}
+
+.cta a {
+  display: inline-block;
+  text-decoration: none;
+  background: #d97a32;
+  color: white;
+  padding: 18px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  background: #b85f20;
+}
+
+/* ===========================
+RESPONSIVE
+=========================== */
+
+@media (max-width: 992px) {
+  .category-container,
+  .special-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-grid,
+  .drink-grid,
+  .dessert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-content h1 {
+    font-size: 50px;
+  }
+
+  .offer h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-content h1 {
+    font-size: 38px;
+  }
+
+  .menu-content p {
+    font-size: 18px;
+  }
+
+  .category-container,
+  .menu-grid,
+  .special-grid,
+  .drink-grid,
+  .dessert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-section h2,
+  .special-menu h2,
+  .drinks h2,
+  .dessert h2,
+  .cta h2 {
+    font-size: 34px;
+  }
+
+  .offer h1 {
+    font-size: 34px;
+  }
+
+  .offer h3 {
+    font-size: 22px;
+  }
+
+  .food-content h3 {
+    font-size: 24px;
+  }
+
+  .food-content span {
+    font-size: 22px;
+  }
+
+  .food-card img {
+    height: 220px;
+  }
+}
