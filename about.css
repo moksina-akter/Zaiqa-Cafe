@@ -1,0 +1,325 @@
+/* ===========================
+ABOUT HERO
+=========================== */
+
+.about-hero {
+  width: 100%;
+  height: 70vh;
+  background: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600")
+    center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.about-hero .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.about-hero .hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.about-hero h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.about-hero p {
+  font-size: 22px;
+}
+
+/* ===========================
+OUR STORY
+=========================== */
+
+.our-story {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 100px 8%;
+  background: #fff;
+}
+
+.story-image {
+  flex: 1;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.story-content {
+  flex: 1;
+}
+
+.story-content h5 {
+  color: #d97a32;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.story-content h2 {
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 25px;
+}
+
+.story-content p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.story-content a {
+  display: inline-block;
+  text-decoration: none;
+  background: #d97a32;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.story-content a:hover {
+  background: #b85f20;
+}
+
+/* ===========================
+MISSION
+=========================== */
+
+.mission {
+  padding: 100px 8%;
+  background: #fcf5eb;
+}
+
+.mission h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 60px;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.mission-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.mission-card:hover {
+  transform: translateY(-10px);
+}
+
+.mission-card .icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mission-card h3 {
+  color: #3b2115;
+  margin-bottom: 15px;
+}
+
+.mission-card p {
+  color: #666;
+  line-height: 1.8;
+}
+
+/* ===========================
+WHY US
+=========================== */
+
+.why-about {
+  padding: 100px 8%;
+  background: #fff;
+}
+
+.why-about h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 60px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.why-card {
+  background: #faf2e8;
+  padding: 35px 25px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.why-card:hover {
+  transform: translateY(-10px);
+}
+
+.why-card h3 {
+  color: #3b2115;
+  margin-bottom: 15px;
+}
+
+.why-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* ===========================
+CHEFS
+=========================== */
+
+.chef {
+  padding: 100px 8%;
+  background: #fcf5eb;
+}
+
+.chef h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3b2115;
+  margin-bottom: 60px;
+}
+
+.chef-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.chef-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.chef-card:hover {
+  transform: translateY(-10px);
+}
+
+.chef-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.chef-card h3 {
+  color: #3b2115;
+  margin-top: 20px;
+}
+
+.chef-card p {
+  color: #d97a32;
+  margin: 15px 0 25px;
+}
+
+/* ===========================
+CTA
+=========================== */
+
+.about-cta {
+  background: #3b2115;
+  color: #fff;
+  text-align: center;
+  padding: 100px 8%;
+}
+
+.about-cta h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-cta p {
+  color: #ddd;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.about-cta a {
+  display: inline-block;
+  text-decoration: none;
+  background: #d97a32;
+  color: #fff;
+  padding: 18px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.about-cta a:hover {
+  background: #b85f20;
+}
+
+/* ===========================
+RESPONSIVE
+=========================== */
+
+@media (max-width: 992px) {
+  .our-story {
+    flex-direction: column;
+  }
+
+  .mission-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .chef-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 38px;
+  }
+
+  .story-content h2,
+  .mission h2,
+  .why-about h2,
+  .chef h2,
+  .about-cta h2 {
+    font-size: 32px;
+  }
+
+  .mission-grid,
+  .why-grid,
+  .chef-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chef-card img {
+    height: 280px;
+  }
+
+  .about-cta p {
+    font-size: 18px;
+  }
+}
